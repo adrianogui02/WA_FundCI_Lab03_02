@@ -28,7 +28,7 @@ jobs:
           context: ./
           push: true
           #dockerfile: ./Dockerfile   # Descomente e ajuste se o Dockerfile estiver em outro local
-          tags: moisesgc/webacademy:latest
+          tags: adrianobree/webacademy:latest
 
   deploy:
     runs-on: ubuntu-latest
